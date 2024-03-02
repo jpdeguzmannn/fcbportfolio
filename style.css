@@ -1,0 +1,39 @@
+/*
+	Syntax for CSS
+	selector {
+		property: value;
+	}
+
+*/
+/*Universal Selector*/
+/*THe universal selector selects all html elements*/
+*{
+	font-family: "Roboto", sans-serif;
+}
+/*Tag Selector*/
+h1, p{
+	font-family: "Montserrat", sans-serif;
+
+}
+
+/*ID Selector*/
+#profile{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+}
+
+body{
+	background-color: #ffffff;
+	background-image: url(images/skyrim.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#landing{
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
